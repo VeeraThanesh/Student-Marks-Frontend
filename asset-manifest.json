@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Student-Marks-Frontend/static/css/main.fa45e043.css",
+    "main.js": "/Student-Marks-Frontend/static/js/main.af41c2b1.js",
+    "static/js/453.8ab44547.chunk.js": "/Student-Marks-Frontend/static/js/453.8ab44547.chunk.js",
+    "static/media/left-img.jpg": "/Student-Marks-Frontend/static/media/left-img.8695ed3923896c32c433.jpg",
+    "static/media/left-img2.jpg": "/Student-Marks-Frontend/static/media/left-img2.f416bc1ccb0ce3ab09ea.jpg",
+    "static/media/logo.png": "/Student-Marks-Frontend/static/media/logo.dc11a0f496aa94e0bd24.png",
+    "static/media/certificate.png": "/Student-Marks-Frontend/static/media/certificate.f37d09f7fcb98b420db6.png",
+    "index.html": "/Student-Marks-Frontend/index.html",
+    "main.fa45e043.css.map": "/Student-Marks-Frontend/static/css/main.fa45e043.css.map",
+    "main.af41c2b1.js.map": "/Student-Marks-Frontend/static/js/main.af41c2b1.js.map",
+    "453.8ab44547.chunk.js.map": "/Student-Marks-Frontend/static/js/453.8ab44547.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa45e043.css",
+    "static/js/main.af41c2b1.js"
+  ]
+}
