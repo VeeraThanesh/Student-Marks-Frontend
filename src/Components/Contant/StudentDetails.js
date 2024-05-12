@@ -77,7 +77,7 @@ function StudentDetails() {
             <div className="top-detail">
               <h4>
                 <span>Website:</span>
-                <a href=""></a>www.smartcollege.com
+                www.smartcollege.com
               </h4>
               <h4>
                 Since : <span>2024</span>

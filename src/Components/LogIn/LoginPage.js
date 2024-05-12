@@ -42,6 +42,7 @@ function LoginPage() {
         navigate("/studentlist");
         localStorage.setItem("user", JSON.stringify(response.data.data));
       }
+      console.log(isSubmit);
       alert("Login Successfully");
     } catch (error) {
       console.error(error, "error");

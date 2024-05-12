@@ -42,7 +42,7 @@ function Navbar() {
                 <p>Admin</p>
               </div>
               <hr />
-              <a href="">
+              <a href="/">
                 LogOut{" "}
                 <TbLogout
                   className="logout-icon"
