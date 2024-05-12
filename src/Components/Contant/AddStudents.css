@@ -15,6 +15,8 @@ html {
   background-position: center;
   background-size: cover;
   position: fixed;
+  overflow: auto;
+  height: 100vh;
 }
 .addStudent-content {
   width: 50%;
@@ -28,10 +30,11 @@ html {
   padding: 10px;
   box-shadow: 0px 20px 55px rgba(0, 0, 0, 0.25);
   background-color: rgb(250, 252, 253);
+
 }
 
 .addStudent-content .close-addstudent{
-  position: fixed;
+  position:absolute;
   left: 72.5%;
   font-size: 25px;
   color: rgb(128, 127, 127);
