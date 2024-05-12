@@ -32,7 +32,7 @@ function SignUp() {
       setLoginErrors(validate(loginState));
       setErrorMessage(true);
       const response = await axios.post(
-        "http://student-marks-backend.vercel.app/api/v1/user/createUser",
+        "https://student-marks-backend.vercel.app/api/v1/user/createUser",
         loginState
       );
 
@@ -48,6 +48,7 @@ function SignUp() {
       if (error.response.status === 400) {
         setApiError(true);
       }
+      console.log(error);
     }
   };
 

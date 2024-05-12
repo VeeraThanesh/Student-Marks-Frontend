@@ -35,7 +35,7 @@ function LoginPage() {
       setIsSubmit(true);
 
       const response = await axios.post(
-        "http://student-marks-backend.vercel.app/api/v1/user/login",
+        "https://student-marks-backend.vercel.app/api/v1/user/login",
         loginState
       );
       if (response) {

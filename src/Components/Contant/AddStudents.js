@@ -49,7 +49,7 @@ function AddStudents() {
       console.log(studentData);
       if (id !== undefined) {
         const response = await axios.put(
-          `http://student-marks-backend.vercel.app/api/v1/student/createStudent/${id}`,
+          `https://student-marks-backend.vercel.app/api/v1/student/createStudent/${id}`,
           studentData
         );
         console.log(response);
@@ -60,7 +60,7 @@ function AddStudents() {
         setErrorMessage(true);
         setIsSubmit(true);
         const response = await axios.post(
-          "http://student-marks-backend.vercel.app/api/v1/student/createStudent",
+          "https://student-marks-backend.vercel.app/api/v1/student/createStudent",
           studentData
         );
         console.log(response);
@@ -76,7 +76,7 @@ function AddStudents() {
   const getUser = async () => {
     try {
       const response = await axios.get(
-        `http://student-marks-backend.vercel.app/api/v1/student/getStudent/${id}`
+        `https://student-marks-backend.vercel.app/api/v1/student/getStudent/${id}`
       );
       console.log(response);
       if (response.data && response.data.data) {
@@ -362,7 +362,7 @@ function AddStudents() {
               <label htmlFor="">Biology Mark</label>
               <input
                 type="number"
-                placeholder="Biology"
+                placeholder="Biology Mark"
                 name="biology"
                 maxLength={5}
                 value={studentData.biology}
@@ -378,7 +378,7 @@ function AddStudents() {
               <label htmlFor="">Chemistry Mark</label>
               <input
                 type="number"
-                placeholder="Chemistry"
+                placeholder="Chemistry Mark"
                 name="chemistry"
                 minLength={5}
                 maxLength={15}

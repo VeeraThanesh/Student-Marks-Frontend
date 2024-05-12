@@ -34,7 +34,7 @@ function StudentDetails() {
   const getUser = async () => {
     try {
       const response = await axios.get(
-        `http://student-marks-backend.vercel.app/api/v1/student/getStudent/${id}`
+        `https://student-marks-backend.vercel.app/api/v1/student/getStudent/${id}`
       );
       console.log(response);
       if (response.data && response.data.data) {

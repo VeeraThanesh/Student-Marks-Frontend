@@ -16,7 +16,7 @@ function StudentList() {
   const getList = async () => {
     try {
       const response = await axios.get(
-        "http://student-marks-backend.vercel.app/api/v1/student/getAllStudents"
+        "https://student-marks-backend.vercel.app/api/v1/student/getAllStudents"
       );
       console.log(response.data.data);
       if (response.data && response.data.data) {
@@ -30,7 +30,7 @@ function StudentList() {
   const deleteUser = async (id) => {
     try {
       const response = await axios.delete(
-        `http://student-marks-backend.vercel.app/api/v1/student/deleteStudent/${id}`
+        `https://student-marks-backend.vercel.app/api/v1/student/deleteStudent/${id}`
       );
       console.log(response.data.data);
       if (response.data && response.data) {
