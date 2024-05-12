@@ -10,10 +10,11 @@ function Auth() {
     const loggedUser = localStorage.getItem("user");
     if (loggedUser) {
       navigate(location.pathname === "/" ? "/studentlist" : location.pathname);
-      setUser(true)
+      setUser(true);
     } else {
       navigate("/login");
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return user && <Outlet />;

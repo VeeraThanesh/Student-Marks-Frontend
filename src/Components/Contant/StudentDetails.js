@@ -29,6 +29,7 @@ function StudentDetails() {
     if (id !== undefined) {
       getUser();
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   console.log(id);
   const getUser = async () => {

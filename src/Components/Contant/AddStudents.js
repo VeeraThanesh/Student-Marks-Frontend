@@ -27,6 +27,7 @@ function AddStudents() {
     if (id !== undefined) {
       getUser();
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const [studentData, setStudentData] = useState(initialVal);
