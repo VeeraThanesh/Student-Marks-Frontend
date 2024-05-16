@@ -58,14 +58,15 @@ html {
   column-gap: 10px;
   margin-top: 20px;
 }
-.addStudent-content  .addStudent-bottom .mark-input{
-  display: flex;
-  flex-direction: column;
-}
 .addStudent-content  .addStudent-top .label-input{
   display: flex;
   flex-direction: column;
   height: 75px;
+}
+.addStudent-content  .addStudent-bottom .mark-input{
+  display: flex;
+  flex-direction: column;
+  height:75px;
 }
 .addStudent-content  .addStudent-top label{
   text-align: left;

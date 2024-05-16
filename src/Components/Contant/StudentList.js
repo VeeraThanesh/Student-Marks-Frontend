@@ -3,7 +3,7 @@ import "./StudentList.css";
 import Navbar from "../Layout/Navbar";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
-import { MdDelete } from "react-icons/md";
+import { MdDelete, MdEdit } from "react-icons/md";
 
 function StudentList() {
   const navigate = useNavigate();
@@ -49,6 +49,12 @@ function StudentList() {
           {rowData?.length > 0 ? (
             rowData?.map((element) => (
               <div className="student-details">
+                <MdEdit
+                  className="studentedit-btn"
+                  onClick={() => {
+                    navigate(`/edit/${element._id}`, { state: element });
+                  }}
+                />
                 <MdDelete
                   className="studentdelete-btn"
                   onClick={() => deleteUser(element._id)}
@@ -68,7 +74,6 @@ function StudentList() {
                     <td>{element.result}</td>
                   </tr>
                 </table>
-
                 <button
                   className="full-detailbtn"
                   onClick={() => {

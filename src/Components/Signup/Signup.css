@@ -36,16 +36,13 @@
     letter-spacing: 2px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.login-right-main p{
-    text-decoration: underline;
-    cursor: pointer;
-    margin: 15px 0;
-    font-size: smaller;
-}
 .apiError{
     margin-top: 25px;
     font-size: smaller;
     color: rgb(25, 0, 255);
+}
+.input-feild{
+    height:100px
 }
 .input-feild input{
     display: flex;
@@ -59,12 +56,6 @@
     padding-left: 10px;
     background-color: none;
     font-size: small;
-}
-.login-right-main h5{
-    margin-top: 25px;
-    margin-left: 120px;
-    font-weight: 300;
-    cursor: pointer;
 }
 
 .login-right-main button{
@@ -132,13 +123,6 @@
         margin-bottom: -17px;
         text-align: start;
       }
-      .login-right-main h5{
-        margin-top: 10px;
-        margin-left: 140px;
-        font-weight: 300;
-        cursor: pointer;
-        font-size: 10px;
-    }
 }
   @media screen and (max-width: 600px) {
     
@@ -161,15 +145,8 @@
         background-color: antiquewhite;
         border: 1px solid black;
         width: 200px;
-    height: 25px;
-    font-size: 10px;
-    }
-      .login-right-main h5{
-        margin-top: 10px;
-        margin-left: 120px;
-        font-weight: 300;
-        cursor: pointer;
-        font-size: 8px;
+        height: 25px;
+        font-size: 10px;
     }
     .login-right-main button{
         width: 200px;

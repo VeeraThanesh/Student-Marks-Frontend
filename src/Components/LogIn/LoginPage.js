@@ -57,7 +57,7 @@ function LoginPage() {
     const errors = {};
 
     if (!isNaN(value.userName) || value.userName?.trim() === "") {
-      errors.userName = "User Name *";
+      errors.userName = "Enter UserName *";
       setIsSubmit(false);
     }
     if (!value.password) {
@@ -85,7 +85,7 @@ function LoginPage() {
                 minLength={3}
                 maxLength={10}
                 required={true}
-                placeholder="Enter UserName"
+                placeholder="UserName"
                 value={loginState.userName}
                 onChange={handleChange}
               />
@@ -113,7 +113,7 @@ function LoginPage() {
             </div>
             <h5>Forget Password ?</h5>
             {apiError ? (
-              <span className="apiError-login">Invalid credentials</span>
+              <span className="apiError-login">Invalid Credentials</span>
             ) : null}
             <button onClick={handlelogin}>LogIn</button>
             <p onClick={() => navigate("/signup")}>Create an account</p>

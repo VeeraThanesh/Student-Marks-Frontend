@@ -56,7 +56,7 @@ function SignUp() {
     const errors = {};
 
     if (!isNaN(value.userName) || value.userName?.trim() === "") {
-      errors.userName = "User Name *";
+      errors.userName = "Enter UserName *";
     }
     if (!value.password) {
       errors.password = "Enter Password *";
@@ -93,7 +93,7 @@ function SignUp() {
                 type="password"
                 name="password"
                 id=""
-                placeholder="Password"
+                placeholder="Enter Password"
                 required={true}
                 minLength={6}
                 maxLength={10}

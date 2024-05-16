@@ -42,7 +42,7 @@ function Navbar() {
                 <p>Admin</p>
               </div>
               <hr />
-              <a href="/">
+              <h5 href="/">
                 LogOut{" "}
                 <TbLogout
                   className="logout-icon"
@@ -50,7 +50,7 @@ function Navbar() {
                     handleLogOut();
                   }}
                 />
-              </a>
+              </h5>
             </div>
           </div>
         </div>

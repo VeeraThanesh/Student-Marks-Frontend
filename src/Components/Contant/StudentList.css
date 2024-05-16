@@ -17,10 +17,21 @@
   padding: 30px;
 
 }
+.studentedit-btn{
+  position: absolute;
+  margin-left: 83%;
+  margin-top: 7px;
+}
+.studentedit-btn:hover{
+  color: yellow;
+}
 .studentdelete-btn{
   position: absolute;
   margin-left: 90%;
   margin-top: 7px;
+}
+.studentdelete-btn:hover{
+  color: red;
 }
 .student-details{
   position: relative;

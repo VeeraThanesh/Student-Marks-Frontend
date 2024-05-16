@@ -50,11 +50,11 @@ function AddStudents() {
       console.log(studentData);
       if (id !== undefined) {
         const response = await axios.put(
-          `https://student-marks-backend.vercel.app/api/v1/student/createStudent/${id}`,
+          `https://student-marks-backend.vercel.app/api/v1/student/updateStudent/${id}`,
           studentData
         );
         console.log(response);
-        // alert("User updated Successfully");
+        // alert("Student Updated Successfully");
       } else {
         e.preventDefault();
         setFormErrors(validate(studentData));
@@ -65,6 +65,7 @@ function AddStudents() {
           studentData
         );
         console.log(response);
+        // alert("Student Created Successfully")
       }
       if (isSubmit) {
         navigate("/studentlist");
@@ -85,7 +86,7 @@ function AddStudents() {
           return {
             ...prevalue,
             studentName: response.data.data.studentName,
-            FatherName: response.data.data.FatherName,
+            fatherName: response.data.data.fatherName,
             email: response.data.data.email,
             dob: response.data.data.dob,
             rollNo: response.data.data.rollNo,
@@ -360,7 +361,7 @@ function AddStudents() {
               )}
             </div>
             <div className="mark-input">
-              <label htmlFor="">Biology Mark</label>
+              <label htmlFor="">Biology</label>
               <input
                 type="number"
                 placeholder="Biology Mark"
@@ -376,7 +377,7 @@ function AddStudents() {
               )}
             </div>
             <div className="mark-input">
-              <label htmlFor="">Chemistry Mark</label>
+              <label htmlFor="">Chemistry</label>
               <input
                 type="number"
                 placeholder="Chemistry Mark"
