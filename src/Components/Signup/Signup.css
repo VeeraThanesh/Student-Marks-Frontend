@@ -96,24 +96,16 @@
     }
     .login-main{
         margin: 50px;
-        background-color: rgb(255, 255, 255);
-        display: flex;
-        justify-content: center;
         height: 100%;
-        align-items: center;
-        margin-top: 20%;
-        
     }
     .login-right-main{
-        border: 1px solid black;
         padding: 50px 30px;
-        background-color: antiquewhite;
-        border-radius: 20px;
-        box-shadow: 10px -10px 18px #ffcccc;
+        border-radius: 10px;
+        box-shadow: 0px 3px 18px #ffcccc;
     }
     .input-feild input{
-        background-color: antiquewhite;
         border: 1px solid black;
+        border-radius: 3px;
     }
     .login-right-main .login-error-message {
         font-size: 10px;
@@ -128,22 +120,12 @@
     
     .login-main{
         margin: 10px;
-        background-color: rgb(255, 255, 255);
-        display: flex;
-        justify-content: center;
-        height: 100%;
-        align-items: center;
-        margin-top: 30%;
     }
     .login-right-main{
-        border: 1px solid black;
         padding: 20px 30px;
-        background-color: antiquewhite;
-        border-radius: 20px;
+        border-radius: 10px;
     }
     .input-feild input{
-        background-color: antiquewhite;
-        border: 1px solid black;
         width: 200px;
         height: 25px;
         font-size: 10px;
@@ -160,11 +142,5 @@
     
     .login-main{
         margin: -30px;
-        background-color: rgb(255, 255, 255);
-        display: flex;
-        justify-content: center;
-        height: 100%;
-        align-items: center;
-        margin-top: 38%;
     }
 }

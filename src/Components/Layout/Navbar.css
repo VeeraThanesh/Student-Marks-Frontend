@@ -85,9 +85,6 @@
     width: 20px;
     height: 20px;
 }
-.user-dropdown-content h5:active{
-    display: block;
-}
 .user-dropdown-content h5{
     color: black;
     padding: 7px 7px 7px 10px;

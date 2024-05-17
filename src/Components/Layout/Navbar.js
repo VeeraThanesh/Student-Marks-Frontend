@@ -42,8 +42,8 @@ function Navbar() {
                 <p>Admin</p>
               </div>
               <hr />
-              <h5 href="/">
-                LogOut{" "}
+              <h5>
+                LogOut
                 <TbLogout
                   className="logout-icon"
                   onClick={() => {
